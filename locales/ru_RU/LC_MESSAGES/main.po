@@ -18,94 +18,93 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: bot.py:129
-msgid "Fetching..."
+msgid "Получение..."
 msgstr ""
 
 #: bot.py:147 cogs/help.py:132
 #, python-brace-format
-msgid "{command} Commands"
+msgid "{command} Комманды"
 msgstr ""
 
 #: bot.py:149
 #, python-brace-format
-msgid "Use \"{prefix}help {command} [command]\" for more info on a command"
+msgid "Use \"{prefix}help {command} [command]\" для большей информации о команде"
 msgstr ""
 
 #: bot.py:152
-msgid "Replace [command] with one of the commands listed above."
+msgid "Замените [command] одной из перечисленных выше команд"
 msgstr ""
 
 #: bot.py:156
-msgid "Commands Available"
+msgid "Доступные комманды"
 msgstr ""
 
 #: bot.py:158
-msgid "Usage"
+msgid "Применение"
 msgstr ""
 
 #: bot.py:166
-msgid "An unknown error occured."
+msgid "Произошла неизвестная ошибка."
 msgstr ""
 
 #: bot.py:168
-msgid ""
-"Please report the following error to the developer by joning the support "
-"server at https://discord.gg/eZU69EV"
+msgid "«Пожалуйста, сообщите разработчику, присоединившись к серверу поддержки»"
+"Ссылка на сервер https://discord.gg/eZU69EV"
 msgstr ""
 
 #: cogs/errors.py:30
 #, python-brace-format
-msgid "You are missing a required argument: `{argument}`"
+msgid "Вам не хватает обязательного аргумента: `{argument}`"
 msgstr ""
 
 #: cogs/errors.py:37
-msgid "You are using a bad argument."
+msgid "Вы используете неверный аргумент."
 msgstr ""
 
 #: cogs/errors.py:40
-msgid "You don't have enough permissions."
+msgid "У вас недостаточно прав."
 msgstr ""
 
 #: cogs/errors.py:44
 #, python-brace-format
-msgid "You can't use `{command}` command for `{seconds}` seconds."
+msgid "Вы не можете использовать команду `{command}` в течение `{seconds}` секунд."
 msgstr ""
 
 #: cogs/errors.py:51
-msgid "This command can't be used in direct messages."
+msgid "Эту команду нельзя использовать в личных сообщениях."
 msgstr ""
 
 #: cogs/errors.py:54
-msgid "It seems you do not own this bot."
+msgid "Похоже, вы не являетесь владельцем этого бота."
 msgstr ""
 
 #: cogs/errors.py:65 cogs/profile.py:130
-msgid "You took too long to reply."
+msgid "Вы слишком долго не отвечали."
 msgstr ""
 
 #: cogs/errors.py:71
-msgid "The argument you entered cannot be handled."
+msgid "Введенный вами аргумент не может быть обработан."
 msgstr ""
 
 #: cogs/errors.py:77
 #, python-brace-format
 msgid ""
-"You haven't linked a profile yet. Use \"{prefix}profile link\" to do so."
+"Вы еще не привязали профиль. Используйте \"{prefix}profile link\" чтобы сделать это."
 msgstr ""
 
 #: cogs/errors.py:84
 #, python-brace-format
 msgid ""
-"You have reached the maximum number of profiles that can be added. Use "
-"\"{prefix}profile list\" for more info."
+"Вы достигли максимального количества профилей, которые можно добавить. Используйте "
+"\"{prefix}profile list\" для большей информации"
 msgstr ""
 
 #: cogs/help.py:59
-msgid "Using the bot"
+msgid "Использование бота"
 msgstr ""
 
 #: cogs/help.py:60
-msgid "Welcome to the help page!"
+msgid "Добро пожаловать на страницу помощи!"
 msgstr ""
 
 #: cogs/help.py:63
@@ -113,7 +112,7 @@ msgid "<argument>"
 msgstr ""
 
 #: cogs/help.py:63
-msgid "This means the argument is **required**."
+msgid "Это означает, что аргумент **required**."
 msgstr ""
 
 #: cogs/help.py:64
@@ -121,99 +120,98 @@ msgid "[argument]"
 msgstr ""
 
 #: cogs/help.py:64
-msgid "This means the argument is **optional**."
+msgid "Это означает, что аргумент **optional**."
 msgstr ""
 
 #: cogs/help.py:65
-msgid "Note"
+msgid "Записка"
 msgstr ""
 
 #: cogs/help.py:65
-msgid "You **must not** include the brackets in the argument."
+msgid "Вы **не должны** включать скобки в аргумент."
 msgstr ""
 
 #: cogs/help.py:72
 #, python-brace-format
-msgid "We were on page {current_page} before this message."
+msgid "Мы были на странице {current_page} перед этим сообщением."
 msgstr ""
 
 #: cogs/help.py:103
 #, python-brace-format
 msgid ""
-"[Support server]({support}) • [View commands online]({website})\n"
-"Use \"{prefix}help [command]\" for more info on a command\n"
-"Use \"{prefix}help [category]\" for more info on a category"
+"[Сервер Помощи]({support}) • [Смотреть комманды на сайте]({website})\n"
+"Используйте \"{prefix}help [command]\" для получения дополнительной информации о команде\n"
+"Используйте \"{prefix}help [category]\" для получения дополнительной информации о категории"
 msgstr ""
 
 #: cogs/help.py:109
-msgid "Help"
+msgid "Помощь"
 msgstr ""
 
 #: cogs/help.py:120
 #, python-brace-format
-msgid "Page {current_page}/{maximum}"
+msgid "Страница {current_page}/{maximum}"
 msgstr ""
 
 #: cogs/help.py:144 cogs/help.py:191
-msgid "No help found..."
+msgid "Помощь не найдена..."
 msgstr ""
 
 #: cogs/help.py:152
 #, python-brace-format
-msgid "Page {current_page}/{maximum} ({total_entries} commands)"
+msgid "Страница {current_page}/{maximum} ({total_entries} комманды)"
 msgstr ""
 
 #: cogs/help.py:161
 #, python-brace-format
-msgid "Use \"{self.prefix}help [command]\" for more info on a command."
+msgid "Используйте \"{self.prefix}help [command]\" для большей информации о команде."
 msgstr ""
 
 #: cogs/help.py:170
-msgid "Shows help about the bot, a command, or a category"
+msgid "Показывает справку о боте, команде или категории"
 msgstr ""
 
 #: cogs/help.py:194
-msgid "Aliases"
+msgid "Псевдонимы"
 msgstr ""
 
 #: cogs/links.py:14
-msgid "Returns the official bot support server invite link."
+msgid "Вернуть ссылку для приглашения официального сервера поддержки ботов."
 msgstr ""
 
 #: cogs/links.py:20
-msgid "Returns bot vote link."
+msgid "Вернуть ссылку для голосования за бота."
 msgstr ""
 
 #: cogs/links.py:26
-msgid "Returns bot invite link."
+msgid "Вернуть ссылку для приглашения бота на сервер."
 msgstr ""
 
 #: cogs/links.py:32
-msgid "Returns the developer's PayPal."
+msgid "Вернуть ссылку для пожертвований."
 msgstr ""
 
 #: cogs/links.py:34
-msgid "Support OverBot"
+msgid "Помощь OverBot"
 msgstr ""
 
 #: cogs/links.py:39
 #, python-brace-format
 msgid ""
-"Maintaining OverBot and adding new features takes up a huge portion of "
-"[{owner}]({github_profile})'s spare time. If you enjoy using OverBot you can "
-"donate a small amount to keep the project alive or just support me. **Thank "
-"you!**\n"
+"Поддержка OverBot и добавление новых функций занимает огромную часть "
+"[{owner}]({github_profile})'s свободное время. Если вам нравится использовать OverBot, вы можете "
+"пожертвовать небольшую сумму, чтобы поддержать проект, или просто поддержите меня. **Спасибо тебе!**\n"
 "\n"
 "{paypal}"
 msgstr ""
 
 #: cogs/links.py:54
-msgid "Returns the bot GitHub repository."
+msgid "Вернуть репозиторий бота на GitHub."
 msgstr ""
 
 #: cogs/locale.py:38
 msgid ""
-"Show or update the bot language.\n"
+"Показать или обновить язык бота.\n"
 "\n"
 "        `[locale] - The language you want the bot to use.\n"
 "        "
